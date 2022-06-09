@@ -43,7 +43,10 @@ namespace fukuv0609
         {
             label1.Text = "生トウモロコシ";
             timer1.Enabled = false;
+            timer2.Enabled = false;
             timer3.Enabled = true;
+            timer4.Enabled = false;
+            timer5.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -51,12 +54,18 @@ namespace fukuv0609
             label1.Text = "粒トウモロコシ";
             timer1.Enabled = false;
             timer2.Enabled = true;
+            timer3.Enabled = false;
+            timer4.Enabled = false;
+            timer5.Enabled = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Text = "冷やしトウモロコシ";
             timer1.Enabled = false;
+            timer2.Enabled = false;
+            timer3.Enabled = false;
+            timer4.Enabled = false;
             timer5.Enabled = true;
         }
 
@@ -64,7 +73,10 @@ namespace fukuv0609
         {
             label1.Text = "爆裂種トウモロコシ";
             timer1.Enabled = false;
+            timer2.Enabled = false;
+            timer3.Enabled = false;
             timer4.Enabled = true;
+            timer5.Enabled = false;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
