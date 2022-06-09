@@ -21,6 +21,10 @@ namespace fukuv0609
         {
             MessageBox.Show("高橋涼");
             timer1.Enabled = false;
+            timer2.Enabled = false;
+            timer3.Enabled = false;
+            timer4.Enabled = false;
+            timer5.Enabled = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
