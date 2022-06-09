@@ -27,5 +27,37 @@ namespace fukuv0609
             label1.Left = label1.Left + (int.Parse(textBox1.Text));
             label1.Top = label1.Top + (int.Parse(textBox2.Text));
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Text = "爆裂種トウモロコシ";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "生トウモロコシ";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "粒トウモロコシ";
+            label1.Top = label1.Top - 5;
+            timer1.Enabled = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Text = "冷やしトウモロコシ";
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            label1.Text = "爆裂種トウモロコシ";
+        }
     }
 }
