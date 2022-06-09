@@ -20,6 +20,7 @@ namespace fukuv0609
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("高橋涼");
+            timer1.Enabled = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -41,23 +42,49 @@ namespace fukuv0609
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Text = "生トウモロコシ";
+            timer1.Enabled = false;
+            timer3.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "粒トウモロコシ";
-            label1.Top = label1.Top - 5;
             timer1.Enabled = false;
+            timer2.Enabled = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Text = "冷やしトウモロコシ";
+            timer1.Enabled = false;
+            timer5.Enabled = true;
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
             label1.Text = "爆裂種トウモロコシ";
+            timer1.Enabled = false;
+            timer4.Enabled = true;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top - 5;
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left - 5;
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left + 5;
+        }
+
+        private void timer5_Tick(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + 5;
         }
     }
 }
