@@ -40,7 +40,7 @@ namespace fukuv0609
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Text = "爆裂種トウモロコシ";
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

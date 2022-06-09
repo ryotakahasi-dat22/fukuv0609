@@ -64,10 +64,11 @@ namespace fukuv0609
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Image = global::fukuv0609.Properties.Resources.toumorokosi;
             this.label1.Location = new System.Drawing.Point(153, 180);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 54);
+            this.label1.Size = new System.Drawing.Size(282, 50);
             this.label1.TabIndex = 1;
             this.label1.Text = "焼きトウモロコシ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
